@@ -140,7 +140,7 @@ a:hover{
     font-size: 18px;
     font-weight: 600;
     
-    text-align: justify;
+    text-align: start;
     line-height: 1.3;
     padding: 2px;
 }
@@ -539,11 +539,15 @@ footer{
         margin: auto;
     }
     .menu{
-        width: 95%;
+        width: 100%;
+        
     }
     .menu a {
-       
-        font-size: 18px; 
+        padding: 0 4px;
+        font-size: 10px; 
+    }
+    .titu{
+        font-size: 22px;
     }
 }
 
@@ -554,10 +558,6 @@ nav{
 }
 .menu{
     width: 95%;
-}
-.menu a {
-    
-    font-size: 18px; 
 }
 
 #sobre {

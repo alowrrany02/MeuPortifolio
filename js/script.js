@@ -53,7 +53,3 @@ document.querySelectorAll('.navbar a').forEach(anchor => {
         smoothScroll(this.getAttribute('href'), 1000); // Chama a função com duração de 1000ms (1 segundo)
     });
 });
-
-document.getElementById("redirection").onclick = function () {
-    window.location.href = "../jmmotopecas.html"
-}

@@ -140,7 +140,7 @@ a:hover{
     font-size: 18px;
     font-weight: 600;
     
-    text-align: start;
+    text-align: justify;
     line-height: 1.3;
     padding: 2px;
 }
@@ -535,19 +535,16 @@ footer{
 /* Media Query */
 @media (max-width: 412px) {
     nav{
+        display: none;
         width: 100%;
         margin: auto;
     }
     .menu{
-        width: 100%;
-        
+        width: 95%;
     }
     .menu a {
-        padding: 0 4px;
-        font-size: 10px; 
-    }
-    .titu{
-        font-size: 22px;
+       
+        font-size: 18px; 
     }
 }
 
@@ -558,6 +555,10 @@ nav{
 }
 .menu{
     width: 95%;
+}
+.menu a {
+    
+    font-size: 18px; 
 }
 
 #sobre {

@@ -54,3 +54,6 @@ document.querySelectorAll('.navbar a').forEach(anchor => {
     });
 });
 
+function jmmotopecas() {
+    window.location.href = "../jmmotopecas.html";
+   }

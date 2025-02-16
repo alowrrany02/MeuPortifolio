@@ -185,6 +185,26 @@ p{
     background-size: cover;
 }
 
+.setadevoltar{
+    transition: all .3s;
+   width: 40px;
+   margin-left: 5%;
+   position: relative;
+   top: -30px;
+   background-color: transparent;
+   border: none;
+   
+}
+
+.setadevoltar:hover{
+    
+   background-color: #ffffff15;
+   backdrop-filter: blur(8px);
+    border: 0.5px solid #fff;
+   border-radius: 5px;
+    transform: scale(1.1);
+}
+
 footer{
     padding: 25px;
     text-align: center;
@@ -192,11 +212,16 @@ footer{
 }
 /* Media Query */
 @media (max-width: 440px) {
+    #hom,#met,#func,#gale{
+        display: none;
+    }
     nav{
+        height:50px;
         width: 100%;
         margin: auto;
     }
     .menu{
+        height:10px;
         width: 95%;
     }
     .menu a {
@@ -205,6 +230,7 @@ footer{
     }
 
     h1{
+        padding-top: 40px;
         margin: 5%;
         font-size: 22px;
     }

@@ -86,6 +86,7 @@ h1{
     font-weight: 600;
     white-space: wrap; 
     margin-top: 8%;
+    
     text-align: center;
     font-style: italic;
 }
@@ -187,11 +188,10 @@ p{
 
 .setadevoltar{
     transition: all .3s;
-   width: 40px;
-   margin-left: 5%;
-   position: relative;
-   top: -30px;
-   background-color: transparent;
+   width: 100%;
+   background-color: rgb(0, 0, 0);
+   position: fixed;
+   top: 10%;
    border: none;
    
 }
@@ -200,10 +200,12 @@ p{
     
    background-color: #ffffff15;
    backdrop-filter: blur(8px);
-    border: 0.5px solid #fff;
    border-radius: 5px;
-    transform: scale(1.1);
+    transform: scale(1.0);
 }
+svg{
+    margin-right: 87%;
+ }
 
 footer{
     padding: 25px;
@@ -216,13 +218,12 @@ footer{
         display: none;
     }
     nav{
-        height:50px;
-        width: 100%;
-        margin: auto;
+        display: none;
+        
     }
     .menu{
-        height:10px;
-        width: 95%;
+        display: none;
+       
     }
     .menu a {
        
@@ -248,6 +249,29 @@ footer{
         width: 85%;
         height: auto;
     }
+
+    .setadevoltar{
+        transition: all .3s;
+       width: 100%;
+       margin: 0;
+       position: fixed;
+       top: 0;
+       background-color: rgb(0, 0, 0);
+       border: none;
+       
+    }
+
+    .setadevoltar:hover{
+    
+        background-color: #ffffff15;
+        backdrop-filter: blur(8px);
+         border: none;
+         transform: scale(1.0);
+     }
+
+     svg{
+        margin-right: 80%;
+     }
 }
 
 @media (max-width: 680px) {

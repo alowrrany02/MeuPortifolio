@@ -20,7 +20,13 @@ function createStar() {
 
 // Chama a função createStar em intervalos regulares
 setInterval(createStar, 100); // Cria uma nova estrela a cada 300ms
-// Função para rolagem suave personalizada
+
+
+
+                    /*=======================================
+                    Função para rolagem suave personalizada
+                    =========================================*/
+
 function smoothScroll(target, duration) {
     const targetElement = document.querySelector(target);
     const navbarHeight = document.querySelector('.navbar').offsetHeight; // Altura da navbar

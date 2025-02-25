@@ -188,6 +188,13 @@ h1{
     background-size: cover;
 }
 
+#img2{
+    background-image: url('../img/receitas/fot1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .descr{
 
     margin-left: 5%;

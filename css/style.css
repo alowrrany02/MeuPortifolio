@@ -175,7 +175,7 @@ h1{
 }
 
 .img{
-    margin: 20px;
+    margin: 10px;
     height: 200px;
     border-radius: 5px;
     background-color: #28006d;
@@ -189,8 +189,8 @@ h1{
 }
 
 #img2{
-    background-image: url('../img/receitas/fot1.png');
-    background-position: center;
+    background-image: url('../img/Screenshot\ 2025-02-25\ at\ 20-47-49\ Rei\ da\ Cozinha.png');
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
 }

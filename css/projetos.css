@@ -122,7 +122,7 @@ p{
     height: 400px;
     box-shadow: 5px 5px  10px #cbacf854 ;
 }
-
+/*Inicio land page oficina*/
 #foto1{
     background-image: url('../img/jmmotopecas/parte1.png');
     background-position: center;
@@ -185,7 +185,73 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
 }
+/*----- Fim da land page oficina*/
 
+/*Inicio site de receitas*/
+#fot1{
+    background-image: url('../img/jmmotopecas/parte1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fot2{
+    background-image: url('../img/jmmotopecas/parte2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fot3{
+    background-image: url('../img/jmmotopecas/parte3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fot4{
+    background-image: url('../img/jmmotopecas/parte4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fot5{
+    background-image: url('../img/jmmotopecas/parte5.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fot6{
+    background-image: url('../img/jmmotopecas/parte6.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fot7{
+    background-image: url('../img/jmmotopecas/parte7.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fot8{
+    background-image: url('../img/jmmotopecas/parte8.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fot9{
+    background-image: url('../img/jmmotopecas/parte9.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Fim site de receitas*/
 .setadevoltar{
     transition: all .3s;
    width: 100%;

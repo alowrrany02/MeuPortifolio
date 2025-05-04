@@ -195,6 +195,13 @@ h1{
     background-size: cover;
 }
 
+#img3{
+    background-image: url('../img/foto01.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .descr{
 
     margin-left: 5%;

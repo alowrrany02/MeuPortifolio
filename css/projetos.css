@@ -244,7 +244,18 @@ p{
     background-size: cover;
 }
 
-
+#fo1{
+    background-image: url('../img/landpageoficina/foto01.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fo2{
+    background-image: url('../img/landpageoficina/foto02.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /*Fim site de receitas*/
 .setadevoltar{
     transition: all .3s;

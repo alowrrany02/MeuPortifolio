@@ -263,6 +263,13 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#fo4{
+    background-image: url('../img/landpageoficina/foto04.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /*Fim site de receitas*/
 .setadevoltar{
     transition: all .3s;

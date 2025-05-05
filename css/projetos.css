@@ -270,6 +270,40 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#funci1{
+    background-image: url('../img/cadas_funciona/foto04.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#funci2{
+    background-image: url('../img/cadas_funciona/foto2.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#funci3{
+    background-image: url('../img/cadas_funciona/foto3.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#listodo1{
+    background-image: url('../img/listodo/listodo1.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#listodo2{
+    background-image: url('../img/listodo/listtodo2.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /*Fim site de receitas*/
 .setadevoltar{
     transition: all .3s;
